@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<widget id="hr.foi.mtlab.mconf" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ConfBox</name>
+    <description>
+        Title: ConfBox Category: Business Description: ConfBox is a mobile platform for delivering the comprehensive information about the conferences and events straight to the users' pockets. It includes information about event and organizer, agenda, detailed schedule, talks, participants and their organizations, locations and much more. The applications was developed at Laboratory for Development and Transfer of Mobile Technologies at University of Zagreb, Faculty of Organization and Informatics in Varazdin. The project team included: - Zlatko Stapić, Ph.D. - Lovro Predovan - Alen Huskanović - David Ante Macan - Mario Novoselec - Dragutin Dumić - Josip Primorac - Milan Pavlović - Denis Pavlović For more information about this app, or how to use ConfBox for your own conference, please contact us at mt-lab@foi.hr. Keywords: Conference, Events, Schedule, Agenda, Conference Assistant
+    </description>
+    <author email="mt-lab@foi.hr" href="http://mtlab.foi.hr">
+        MT-lab, Faculty of organization and informatics, Varazdin, Croatia
+    </author>
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="keyboardDisplayRequiresUserAction" value="false" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <icon src="res/ios/icon/icon.png" width="60" height="60" />
+    <icon src="res/ios/icon/icon.png" width="120" height="120" />
+    <!-- iPad -->
+    <icon src="res/ios/icon/icon.png" width="76" height="76" />
+    <icon src="res/ios/icon/icon.png" width="152" height="152" />
+    <!-- iOS 6.1 -->
+    <!-- Spotlight Icon -->
+    <icon src="res/ios/icon/icon.png" width="40" height="40" />
+    <icon src="res/ios/icon/icon.png" width="80" height="80" />
+    <!-- iPhone / iPod Touch -->
+    <icon src="res/ios/icon/icon.png" width="57" height="57" />
+    <icon src="res/ios/icon/icon.png" width="114" height="114" />
+    <!-- iPad -->
+    <icon src="res/ios/icon/icon.png" width="72" height="72" />
+    <icon src="res/ios/icon/icon.png" width="144" height="144" />
+    <!-- iPhone Spotlight and Settings Icon -->
+    <icon src="res/ios/icon/icon.png" width="29" height="29" />
+    <icon src="res/ios/icon/icon.png" width="58" height="58" />
+    <!-- iPad Spotlight and Settings Icon -->
+    <icon src="res/ios/icon/icon.png" width="50" height="50" />
+    <icon src="res/ios/icon/icon.png" width="100" height="100" />
+
+    <access origin="*" />
+</widget>
